@@ -1,0 +1,14 @@
+<div class="topnav">
+  <a routerLink="/productlist">List Product | </a>
+  <a class="active" routerLink="/product">Add Product | </a>
+  <a routerLink="/shoppinglist">Shopping list</a>
+</div>
+
+
+<button (click)="increment()">Increment</button>
+
+<div>Current Count: {{ count$ | async }}</div>
+
+<button (click)="decrement()">Decrement</button>
+
+<button (click)="reset()">Reset Counter</button>
