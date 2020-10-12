@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
   shoppingItems: Observable<Array<ShoppingItem>>;
   newShoppingItem: ShoppingItem = { id: '', name: '' }
   count$: Observable<number>
-
+  title = "ngrx"
   constructor(private store: Store<AppState>,
     private stores: Store<{ count: number }>) {
       this.count$ = stores.select('count');

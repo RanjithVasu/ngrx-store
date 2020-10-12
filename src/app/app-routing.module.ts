@@ -4,6 +4,7 @@ import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { IncrementDecrementComponent } from './increment-decrement/increment-decrement.component';
 import { ShoppingListItemsComponent } from './shopping-list-items/shopping-list-items.component';
+import { MainStoreComponentComponent } from './main-store-component/main-store-component.component';
 
 //This is my case
 const routes: Routes = [
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'incdec',
     component: IncrementDecrementComponent,
+  },
+  {
+    path: 'movies',
+    component: MainStoreComponentComponent,
   }
 ];
 

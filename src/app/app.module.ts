@@ -12,6 +12,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ShoppingListItemsComponent } from './shopping-list-items/shopping-list-items.component';
 import { IncrementDecrementComponent } from './increment-decrement/increment-decrement.component';
+import { MainStoreComponentComponent } from './main-store-component/main-store-component.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { IncrementDecrementComponent } from './increment-decrement/increment-dec
     ProductListComponent,
     ShoppingListItemsComponent,
     IncrementDecrementComponent,
+    MainStoreComponentComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
+    HttpClientModule,
     StoreModule.forRoot({
       shopping: ShoppingReducer,
       count: counterReducer,

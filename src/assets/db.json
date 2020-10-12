@@ -1,0 +1,35 @@
+{
+  "moviesList": [
+    {
+      "id": 1,
+      "name": "Bigil",
+      "price": "$120"
+    },
+    {
+      "id": 2,
+      "name": "Sarkar",
+      "price": "$110"
+    },
+    {
+      "id": 3,
+      "name": "Mersal",
+      "price": "$100"
+    },
+    {
+      "id": 4,
+      "name": "Bairava",
+      "price": "$90"
+    },
+    {
+      "id": 5,
+      "name": "Bairava",
+      "price": "$90"
+    },
+    {
+      "id": 6,
+      "name": "Bairava",
+      "price": "$90"
+    }
+
+  ]
+}
